@@ -14,13 +14,24 @@ const clearScreen = ()=>{
     screenDisplay.value = '';
 }
 
-const calculate = ()=>{
-    try{
-        screenDisplay.value = eval(screenDisplay.value);
+// const calculate = ()=>{
+//     try{
+//         screenDisplay.value = eval(screenDisplay.value);
        
-    }
-    catch(error){
-        screenDisplay.value = 'Error'
+//     }
+//     catch(error){
+//         screenDisplay.value = 'Error'
+//     }
+// }
+
+const calculate = () => {
+    try {
+        let expression = screenDisplay.value
+            .replace(/x/g, '*')
+            .replace(/÷/g, '/');
+        let result = eval(expression);
+        screenDisplay.value = Number(result.toFixed(10));
+    } catch(error) {
+        screenDisplay.value = 'Error';
     }
 }
-

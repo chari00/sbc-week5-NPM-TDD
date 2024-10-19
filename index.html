@@ -4,39 +4,35 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Chari Cruz | Calculator - NPM | TDD</title>
-    <link rel="stylesheet" href="./assests/css/style.css">
+    <link rel="stylesheet" href="./assests/css/style.css" />
     <script async src="./index.js"></script>
   </head>
   <body>
     <section id="calc-container">
-          <input
-            type="text"
-            id="screen"
-            aria-label="Calculator screen"
-            readonly
-            />
-        </div>
-        <div id="keys">
-            <button class="text-orange" onclick="displayToScreen('(')">(</button>
-            <button class="text-orange" onclick="displayToScreen('%')">%</button>
-            <button class="text-orange" onclick="displayToScreen('÷')">÷</button>
-            <button onclick="displayToScreen('7')">7</button>
-            <button onclick="displayToScreen('8')">8</button>
-            <button onclick="displayToScreen('9')">9</button>
-            <button class="text-orange" onclick="displayToScreen('x')">x</button>
-            <button onclick="displayToScreen('4')">4</button>
-          <button onclick="displayToScreen('5')">5</button>
-          <button onclick="displayToScreen('6')">6</button>
-          <button class="text-orange" onclick="displayToScreen('-')">-</button>
-          <button onclick="displayToScreen('1')">1</button>
-          <button onclick="displayToScreen('2')">2</button>
-          <button onclick="displayToScreen('3')">3</button>
-          <button class="text-orange" onclick="displayToScreen('+')">+</button>
-          <button class="text-orange" onclick="displayToScreen(')')">)</button>
-          <button class="clear" onclick="clearScreen('C')">C</button>
-          <button onclick="displayToScreen('0')">0</button>
-          <button onclick="displayToScreen('.')">.</button>
-          <button class="bg-orange" onclick="calculate()">=</button>
+      <input type="text" id="screen" aria-label="Calculator screen" readonly />
+
+      <div id="keys">
+        <button class="text-orange" onclick="displayToScreen('(')">(</button>
+        <button class="text-orange" onclick="displayToScreen(')')">)</button>
+        <button class="text-orange" onclick="displayToScreen('%')">%</button>
+        <button class="text-orange" onclick="displayToScreen('÷')">÷</button>
+        <button onclick="displayToScreen('7')">7</button>
+        <button onclick="displayToScreen('8')">8</button>
+        <button onclick="displayToScreen('9')">9</button>
+        <button class="text-orange" onclick="displayToScreen('x')">x</button>
+        <button onclick="displayToScreen('4')">4</button>
+        <button onclick="displayToScreen('5')">5</button>
+        <button onclick="displayToScreen('6')">6</button>
+        <button class="text-orange" onclick="displayToScreen('-')">-</button>
+        <button onclick="displayToScreen('1')">1</button>
+        <button onclick="displayToScreen('2')">2</button>
+        <button onclick="displayToScreen('3')">3</button>
+        <button class="text-orange" onclick="displayToScreen('+')">+</button>
+        <button class="clear" onclick="clearScreen('C')">C</button>
+        <button onclick="displayToScreen('0')">0</button>
+        <button onclick="displayToScreen('.')">.</button>
+        <button class="bg-orange" onclick="calculate()">=</button>
+      </div>
     </section>
   </body>
 </html>
