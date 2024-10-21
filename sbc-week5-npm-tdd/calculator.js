@@ -1,4 +1,3 @@
-
 export const displayToScreen = (input, screenDisplay) => {
   screenDisplay.value += input;
 };
@@ -13,7 +12,8 @@ export const calculate = (screenDisplay) => {
       .replace(/x/g, "*")
       .replace(/÷/g, "/")
       .replace(/(\d+(\.\d+)?)%/g, (match, p1) => `(${p1}/100)`);
-    if (expression.includes('/0')) {
+    console.log("Parsed expression:", expression);
+    if (expression.includes("/0")) {
       throw new Error("Can't divide by zero");
     }
     let result = eval(expression);
