@@ -2,22 +2,21 @@
 
 # Basic Calculator with TDD integration
 
+This project is a SBC challenge to create a simple calculator and test its functionality using JavaScript testing frameworks. Vitest is the JavaScript testing framework utilized in this project.
+
+**Find the challenge instructions in [CHALLENGE.md](./sbc-week5-npm-tdd/CHALLENGE.md) file or click [HERE](./sbc-week5-npm-tdd/CHALLENGE.md).**
+
 ## Table of Content
 
-- [Description](#Description)
 - [Installation](#Installation)
 - [Configuration](#Configuration)
+- [Visual](#Visual)
 - [Deployed_Website_URL](#Deployed_Website_URL)
 - [Resource_Links](#Resource_Links)
 - [License](#License)
 - [Contributing](#Contributing)
 - [Questions](#Questions)
 
-## Description
-
-This project is a SBC challenge to create a simple calculator and test its functionality using JavaScript testing frameworks. Vitest is the JavaScript testing framework utilized in this project.
-
-**Find the challenge instructions in [CHALLENGE.md](./sbc-week5-npm-tdd/CHALLENGE.md) file or click [HERE](./sbc-week5-npm-tdd/CHALLENGE.md).**
 
 ## Installation
 
@@ -66,6 +65,14 @@ In the package.json file in the root of the project. Check if the scripts have t
 If not, add the code above. Read more about [Vitest configuration](https://vitest.dev/config/)
 
 ---
+
+## Visual
+
+
+
+https://github.com/user-attachments/assets/66df211d-a658-404a-82f4-2d3be1fc1904
+
+
 
 ## Deployed_Website_URL
 
