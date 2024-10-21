@@ -77,6 +77,7 @@ https://github.com/user-attachments/assets/66df211d-a658-404a-82f4-2d3be1fc1904
 ## Deployed_Website_URL
 
 - [Basic Calculator](https://sbc-week5-npm-tdd-tgly.vercel.app/)
+- [Video of passing the test](https://youtu.be/AqTZfg_uVzg)
 
 ---
 
