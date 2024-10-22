@@ -1,4 +1,9 @@
+<a name="readme-top"></a>
 
+![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![Vite](https://img.shields.io/badge/vite-%23646CFF.svg?style=for-the-badge&logo=vite&logoColor=white)
+![Vitest](https://img.shields.io/badge/-Vitest-252529?style=for-the-badge&logo=vitest&logoColor=FCC72B)
 
 # Basic Calculator with TDD integration
 
@@ -44,7 +49,7 @@ npm test
 or
 npm run test
 
-both should work
+any should work
 ```
 
 ---
@@ -66,6 +71,8 @@ If not, add the code above. Read more about [Vitest configuration](https://vites
 
 ---
 
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 ## Visual
 
 
@@ -73,6 +80,8 @@ If not, add the code above. Read more about [Vitest configuration](https://vites
 https://github.com/user-attachments/assets/66df211d-a658-404a-82f4-2d3be1fc1904
 
 
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## Deployed_Website_URL
 
@@ -93,9 +102,12 @@ https://github.com/user-attachments/assets/66df211d-a658-404a-82f4-2d3be1fc1904
 
 ## Contributing
 
-Fork this file, create your own branch, make changes and create a pull request.
+Fork this repository, create your own branch, make changes and create a pull request.
 
 
 ## Questions
 
 Click this [form](https://feedback-form-mcc.netlify.app/) for feedback and questions.
+
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
