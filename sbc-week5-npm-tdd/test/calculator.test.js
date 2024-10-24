@@ -1,7 +1,7 @@
 
 // import { describe, it, expect, beforeEach } from 'vitest'
-// import { displayToScreen, clearScreen, calculate } from '../calculator'
-const { displayToScreen, clearScreen, calculate } = require('../calculator')
+import { displayToScreen, clearScreen, calculate } from '../calculator'
+// const { displayToScreen, clearScreen, calculate } = require('../calculator')
 
 describe('Calculator', () => {
   let screenDisplay;

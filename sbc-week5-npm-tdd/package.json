@@ -2,12 +2,13 @@
   "name": "sbc-week5-npm-tdd",
   "private": true,
   "version": "0.0.0",
+  "type": "module",
  
   "scripts": {
     "dev": "vite",
     "preview": "vite preview",
     "build": "vite build",
-    "test": "jest",
+    "test": "vitest",
     "coverage": "vitest run --coverage"
   },
   "devDependencies": {

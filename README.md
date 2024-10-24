@@ -10,6 +10,7 @@
 This project is a SBC challenge to create a simple calculator and test its functionality using JavaScript testing frameworks. Vitest is the JavaScript testing framework utilized in this project.
 
 **Find the challenge instructions in [CHALLENGE.md](./sbc-week5-npm-tdd/CHALLENGE.md) file or click [HERE](./sbc-week5-npm-tdd/CHALLENGE.md).**
+**If preferred the jest test, find instruction in [JEST-TEST.md](./sbc-week5-npm-tdd/JEST-TEST.md) file or click [here](./sbc-week5-npm-tdd/JEST-TEST.md)** 
 
 ## Table of Content
 

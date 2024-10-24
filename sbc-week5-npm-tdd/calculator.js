@@ -1,12 +1,12 @@
-const displayToScreen = (input, screenDisplay) => {
+export const displayToScreen = (input, screenDisplay) => {
   screenDisplay.value += input;
 };
 
- const clearScreen = (screenDisplay) => {
+ export const clearScreen = (screenDisplay) => {
   screenDisplay.value = "";
 };
 
-const calculate = (screenDisplay) => {
+export const calculate = (screenDisplay) => {
   try {
     let expression = screenDisplay.value
       .replace(/x/g, "*")
@@ -23,4 +23,4 @@ const calculate = (screenDisplay) => {
   }
 };
 
-module.exports = {displayToScreen, clearScreen, calculate}
+// module.exports = {displayToScreen, clearScreen, calculate}

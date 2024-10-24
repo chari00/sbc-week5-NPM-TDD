@@ -1,7 +1,7 @@
 
 import './css/style.css'
-// import { calculate, displayToScreen, clearScreen } from './calculator'
-const { calculate, displayToScreen, clearScreen } = require('./calculator')
+import { calculate, displayToScreen, clearScreen } from './calculator'
+// const { calculate, displayToScreen, clearScreen } = require('./calculator')
 
 
 document.addEventListener('DOMContentLoaded', () => {
